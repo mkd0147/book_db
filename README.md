@@ -1,4 +1,8 @@
-# BookDB 1.8.0 for Windows
+# BookDB for Windows
+
+**Windows 1.9 candidate:** matching source is now in this repository.
+See [build and testing instructions](docs/WINDOWS_1_9.md). The original v1.8
+release remains available below; 1.9 is a separate Windows-only candidate.
 
 An offline personal book catalogue with English, Czech and Slovak interfaces,
 curated lists, series, loans and a reading tracker.
@@ -61,7 +65,7 @@ Windows security protections to run this application.
 
 The exact source snapshot used to build v1.8 was not preserved. The current
 repository is therefore a binary distribution with catalogue export tooling,
-not a reproducible source release. A future release needs matching source and
-build instructions before we can claim source-to-binary traceability.
+not a reproducible source release. The separate 1.9 candidate includes source and build instructions. Its release
+records the source commit; it does not claim to reconstruct the exact 1.8 build.
 
 See [code signing status](docs/CODE_SIGNING.md).

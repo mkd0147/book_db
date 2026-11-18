@@ -1,0 +1,26 @@
+{
+  "name": "bookdb",
+  "version": "1.9.0-rc.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "test": "playwright test",
+    "format": "prettier --write src tests *.ts *.json index.html"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.4.0",
+    "prettier": "^3.9.6",
+    "puppeteer-core": "^25.10.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.0"
+  }
+}

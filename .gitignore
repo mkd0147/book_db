@@ -2,3 +2,14 @@ __pycache__/
 *.pyc
 *.db-wal
 *.db-shm
+.venv/
+node_modules/
+build/
+dist/
+frontend/dist/
+.pytest_cache/
+*.tsbuildinfo
+*.spec
+backend/**/*.db
+docs/third-party/
+frontend/test-results/
