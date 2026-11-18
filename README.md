@@ -33,3 +33,35 @@ for example `C:\BookDB-Catalogue`, and launch from PowerShell:
 
 Do not overwrite an existing personal database. Changes affect your local
 copy only. The catalogue is separate from the unchanged application archive.
+
+## Screenshots
+
+Actual v1.8 Windows interface, shown with the public catalogue and no personal data.
+
+![Collection, translation indicators and filters](docs/images/collection-en.png)
+
+![Curated reading lists](docs/images/lists-en.png)
+
+## Local storage and removal
+
+By default, your database is stored at `%LOCALAPPDATA%\BookDB\books.db`,
+separately from the application folder. Settings shows the actual location.
+Use Import / Export to export YAML backups before changing or moving a library.
+Closing the browser does not stop the application: use the launcher to stop it.
+
+To remove the portable application, stop BookDB and delete its extracted folder.
+Your database remains in its data folder. Delete that folder separately only if
+its contents are no longer needed and you have retained any wanted backups.
+
+## Release transparency
+
+The v1.8 executable is currently unsigned. Checksums detect changed downloads;
+they do not certify publisher identity or software safety. Do not disable
+Windows security protections to run this application.
+
+The exact source snapshot used to build v1.8 was not preserved. The current
+repository is therefore a binary distribution with catalogue export tooling,
+not a reproducible source release. A future release needs matching source and
+build instructions before we can claim source-to-binary traceability.
+
+See [code signing status](docs/CODE_SIGNING.md).
