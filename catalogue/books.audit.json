@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "alembic_version": 1,
+    "series": 30,
+    "books": 1118,
+    "curated_lists": 6,
+    "curated_list_entries": 1292,
+    "curated_series_entries": 8,
+    "returned_loans": 0,
+    "reading_sessions": 0
+  },
+  "sha256": "0a23c764ec8335fcf1369b87167555c20c3f4899f5425a7512ed5bb5a7a1d06d",
+  "personal_data_removed": true
+}
